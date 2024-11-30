@@ -1,6 +1,5 @@
 package herz;
 
-
 public class Brain {
 
 	public static class SharedTestGameObject {
@@ -9,11 +8,12 @@ public class Brain {
 		public static String name = "Gameobject";
 		public static String path = "";
 	}
+
 	
 	public static class GameOptions {
 		public static double gravity = 8.91;
-		
 	}
+
 	
 	public static void main(String[] args) {
 		// TODO MAKE A ENGINE!!
